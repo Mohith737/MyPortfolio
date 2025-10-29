@@ -1,0 +1,12 @@
+This is a placeholder for the hero background image.
+
+If you have a background image used in the site's hero section, copy it here and name it exactly:
+
+  herobg.png
+
+Recommended size: 1920x1080 or a wide image optimized for web. Compress before adding to keep the repo small.
+
+Example local path to copy from:
+C:\Users\Mohith\Pictures\herobg.png
+
+After placing the image, the background will load from /herobg.png.

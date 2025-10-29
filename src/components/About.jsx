@@ -40,7 +40,7 @@ const About = () => {
               <a href='https://www.linkedin.com/in/mohith-nandika/' target='_blank' rel='noreferrer' className='text-white underline'>LinkedIn</a>
             </div>
             <div className='mt-2'>
-              <a href='/Mohith_resume_AWD.pdf' target='_blank' rel='noreferrer' className='inline-block px-4 py-2 bg-[#915EFF] text-white rounded-md'>Download Resume</a>
+              <a href='/Mohith_BResume.pdf' target='_blank' rel='noreferrer' className='inline-block px-4 py-2 bg-secondary text-white rounded-md hover:opacity-90'>Download Resume</a>
             </div>
           </div>
         </div>

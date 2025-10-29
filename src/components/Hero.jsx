@@ -23,7 +23,7 @@ const Hero = () => {
       {/* Waves Background */}
       <div className="absolute inset-0 z-0">
         <Waves
-          lineColor="#a480ff"
+          lineColor="#D7263D"
           backgroundColor="#0b0418"
           style={{ opacity: 0.9 }}
         />
@@ -44,19 +44,19 @@ const Hero = () => {
           <div className="relative w-56 h-56 flex items-center justify-center rounded-full bg-black/20 group">
 
             {/* Glowing Outer Ping Ring */}
-            <div className="absolute w-64 h-64 rounded-full bg-gradient-to-tr from-[#915EFF99] via-[#5E9CFF99] to-white opacity-20 blur-2xl animate-ping z-0" />
+            <div className="absolute w-64 h-64 rounded-full bg-gradient-to-tr from-[#D7263D99] via-[#FF6B6B99] to-white opacity-20 blur-2xl animate-ping z-0" />
 
             {/* Animated Gradient Orbit Ring */}
-            <div className="absolute inset-0 rounded-full animate-[spin_6s_linear_infinite] z-0 border-[6px] border-transparent bg-[conic-gradient(at_top_left,_#915EFF,_#5E9CFF,_#ffffff,_#915EFF)] blur-sm opacity-60" />
+            <div className="absolute inset-0 rounded-full animate-[spin_6s_linear_infinite] z-0 border-[6px] border-transparent bg-[conic-gradient(at_top_left,_#D7263D,_#FF6B6B,_#ffffff,_#D7263D)] blur-sm opacity-60" />
 
             {/* Halo Glow Effect */}
-            <div className="absolute w-[280px] h-[280px] border border-[#915EFF44] rounded-full blur-md animate-pulse z-0" />
+            <div className="absolute w-[280px] h-[280px] border border-[#D7263D44] rounded-full blur-md animate-pulse z-0" />
 
             {/* Actual Profile Image with subtle scale animation */}
             <motion.div
               animate={{ scale: [1, 1.03, 1] }}
               transition={{ duration: 4, repeat: Infinity }}
-              className="relative z-10 w-48 h-48 rounded-full p-[4px] bg-white/10 backdrop-blur-md shadow-[0_8px_32px_rgba(145,94,255,0.35)]"
+              className="relative z-10 w-48 h-48 rounded-full p-[4px] bg-white/10 backdrop-blur-md shadow-[0_8px_32px_rgba(215,38,61,0.35)]"
             >
                 <img
                   src="/profile.jpg"
@@ -70,8 +70,8 @@ const Hero = () => {
 
         {/* Intro Text */}
         <div className={`${styles.paddingX} flex flex-col items-center`}>
-          <h1 className={`${styles.heroHeadText} text-white text-center`}>
-            Hi, I'm <span className="text-[#915EFF]">NANDIKA MOHITH</span>
+            <h1 className={`${styles.heroHeadText} text-white text-center`}>
+            Hi, I'm <span className="text-[#D7263D]">NANDIKA MOHITH</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100 text-center text-base sm:text-lg md:text-xl`}>
             Web Developer | Software Developer | Java Developer
@@ -90,10 +90,10 @@ const Hero = () => {
           className="mt-6 flex gap-4 flex-wrap justify-center"
         >
           <a
-            href="https://drive.google.com/file/d/1kjsQSoXiCV-vQb5Dy__iL5xPMd6YmQ2W/view?usp=sharing"
+            href="/Mohith_BResume.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            className="px-6 py-2 rounded-lg bg-[#915EFF] text-white font-medium hover:bg-[#7d4dff] transition"
+            className="px-6 py-2 rounded-lg bg-red-600 text-white font-medium hover:bg-red-500 transition"
           >
             Resume
           </a>
@@ -116,7 +116,7 @@ const Hero = () => {
             href="https://github.com/Mohith737"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-[#915EFF] transition"
+            className="hover:text-secondary transition"
           >
             <FaGithub />
           </a>
@@ -124,7 +124,7 @@ const Hero = () => {
             href="https://www.linkedin.com/in/mohith-nandika/"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-[#5E9CFF] transition"
+            className="hover:text-secondary transition"
           >
             <FaLinkedin />
           </a>

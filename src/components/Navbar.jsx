@@ -66,10 +66,10 @@ const Navbar = () => {
           </ul>
           <div className="hidden lg:flex gap-4">
             <a
-              href="/Mohith_resume_AWD.pdf"
+              href="/Mohith_BResume.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="px-4 py-2 bg-[#915EFF] text-white rounded-md text-sm hover:opacity-90"
+              className="px-4 py-2 bg-red-600 text-white rounded-md text-sm hover:opacity-90"
             >
               Resume
             </a>
@@ -119,7 +119,7 @@ const Navbar = () => {
               </li>
               <li>
                 <a
-                  href="https://drive.google.com/file/d/1kjsQSoXiCV-vQb5Dy__iL5xPMd6YmQ2W/view?usp=sharing"
+                  href="/Mohith_BResume.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-white hover:text-secondary text-xl flex items-center gap-2"
